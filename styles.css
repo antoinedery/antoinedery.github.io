@@ -1,0 +1,108 @@
+body,html {
+    margin:0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+#header{
+    background:rgba(0,0,0,0.9);
+    padding:0;
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    width:85%;
+    margin:0 auto;
+}
+
+#header, .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.main-nav ul li{
+    float:left;
+    margin-left:35px;
+    font-size: 18px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#title{
+    color:white;
+}
+
+.home-section{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    background-color: rgb(202, 255, 237);
+}
+
+.projects-section{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    background-color: rgb(255, 168, 168);
+}
+
+.skills-section{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    background-color: rgb(191, 203, 253);
+}
+
+.resume-section{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    background-color: rgb(253, 191, 222);
+}
+
+.contact-section{
+    height:100vh;
+    display:flex;
+    align-items: center;
+}
+
+#footer-copyright{
+    /* font-family: Verdana, sans-serif; */
+    font-family:'LemonMilk';
+    font-size: 14px;
+    color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer-social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width:100%;
+}
+
+#github, #linkedin{
+    font-size:42px;
+    color: black;
+}
+
+#github:hover, #linkedin:hover{
+    font-size:42px;
+    cursor:pointer;
+    color:rgb(0, 31, 117);
+    text-shadow: 0 0 40px rgb(0, 31, 117);;
+}
