@@ -7,50 +7,62 @@
     <link href="./resources/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
   <body>
     <header id="header">
         <div class="container">
-            <h2 id="title">Antoine Déry</h2>
             <nav class="main-nav">
-                <div>
+                <div id="nav-container">
                     <ul>
-                    <li><a href="#home">ACCUEIL</a></li>
-                    <li><a href="#projects">PROJETS</a></li>
-                    <li><a href="#skills">COMPÉTENCES</a></li>
-                    <li><a href="#resume">CURRICULUM VITAE</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#resume">RESUME</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="home-section" id="home">
+    <section class="section section-odd" id="home">
         <div class="container">
-            <h1>ACCUEIL</h1>
-            <p>ACCUEIL ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-            <p>ACCUEIL ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+            <!-- <h1 class="section-title">HOME</h1> -->
+            <div id="home-container">
+                <div id="home-profile-picture-container">
+                    <img src="./resources/profile.jpg" alt="Profile picture" id="profile-picture" width="80%" height="80%">
+                </div>
+                <div id="home-text-container">
+                    <h2 class="section-title">Welcome to my portolio! I'm Antoine Déry.</h2>
+                    <h4 class="section-title">In a few words...</h4>
+                    <div class="list-container">
+                        <ul>
+                            <li>- Third year undergraduate student in Software Engineering at Polytechnique Montréal</li>
+                            <li>- Hands-on experience in web development and object oriented programming</li>
+                            <li>- Passionate about artificial intelligence and process automation</li>
+                            <li>- Leadership, rigor and resilience developed through internships and personal projects</li>
+                            <li>- Front-End: Angular, TypeScript, JavaScript, HTML/CSS</li>
+                            <li>- Back-End: Node, Express, SQL</li>
+                            <li>- Object-Oriented Programming: C/C++, Java, Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="projects-section" id="projects">
+    <section class="section-even" id="projects">
         <div class="container">
-            <h1>PROJETS</h1>
-            <p>PROJETS ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            <div>
+                <h1 class="section-title">PROJECTS</h1>
+                <hr class="hr">
+            </div>
+            <p>PROJECTS ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
-            <p>"PROJETS ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            <p>"PROJECTS ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
@@ -58,52 +70,46 @@
         </div>
     </section>
 
-    <section class="skills-section" id="skills">
+    <section class="section-even half-section" id="resume">
         <div class="container">
-            <h1>COMPÉTENCES</h1>
-            <p>COMPÉTENCES ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-            <p>COMPÉTENCES ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-        </div>
-    </section>
-
-    <section class="resume-section" id="resume">
-        <div class="container">
-            <h1>CURRICULUM VITAE</h1>
-            <p>CURRICULUM ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-            <p>CURRICULUM ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-        </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-        <div class="container">
-            <h1>CONTACTS</h1>
-            <div id="footer-social">
-                <a tabindex=-1 href="mailto:antoinedery12@hotmail.fr" target="_blank">
-                    <i id="linkedin" class="fa fa-envelope"></i>
-                  </a>
-
-                <a tabindex=-1 href="https://github.com/antoinedery" target="_blank">
-                  <i id="github" class="fa fa-github"></i>
+            <div class="section-title-container">
+                <h1 class="section-title">RESUME</h1>
+                <hr class="hr">
+            </div>
+            <div id="resume-container">
+                <p id="text">Are you interested in learning more about me and my past experiences?</p>
+                <a href="resources/cv.pdf" download></a>
+                    <div id="download-button-container">
+                        <button id="download-button">Download my resume</button>
+                    </div>
                 </a>
-                <a tabindex=-1 href="https://www.linkedin.com/in/antoine-dery/" target="_blank">
-                  <i id="linkedin" class="fa fa-linkedin-square"></i>
-                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-odd half-section" id="contact">
+        <div class="container">
+            <div class="section-title-container">
+                <h1 class="section-title">CONTACT</h1>
+                <hr class="hr">
+            </div>
+            <div id="social-container">
+                <div id="footer-social">
+
+                    <a tabindex=-1 href="mailto:antoinedery12@hotmail.fr" target="_blank">
+                        <i id="linkedin" class="fa fa-envelope"></i>
+                    </a>
+
+                    <a tabindex=-1 href="https://github.com/antoinedery" target="_blank">
+                        <i id="github" class="fa fa-github"></i>
+                    </a>
+
+                    <a tabindex=-1 href="https://www.linkedin.com/in/antoine-dery/" target="_blank">
+                        <i id="linkedin" class="fa fa-linkedin-square"></i>
+                    </a>
+
+                </div>
+            </div>
         </div>
     </section>
 
