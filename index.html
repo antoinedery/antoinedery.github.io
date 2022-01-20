@@ -11,11 +11,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
   <body>
-    <header id="header">
+    <section id="header">
         <div class="container col-9 col-s-12 col-t-12">
             <nav class="main-nav">
                 <div id="nav-container">
-                    <ul>
+                    <ul class="menu">
                         <li><a href="/#home">HOME</a></li>
                         <li><a href="/#projects">PROJECTS</a></li>
                         <li><a href="/#resume">RESUME</a></li>
@@ -24,7 +24,7 @@
                 </div>
             </nav>
         </div>
-    </header>
+    </section>
     <section class="section section-odd" id="home">
         <div class="container col-9 col-s-12 col-t-12">
             <div id="home-container">
@@ -51,79 +51,70 @@
         </div>
     </section>
 
-    <section class="section-even" id="projects">
+    <section class="section-even col-12 col-s-12 col-t-12" id="projects">
         <div class="container col-9 col-s-12 col-t-12">
             <div class="section-title-container">
-                <div>
-                    <h1 class="section-title">PROJECTS & ACCOMPLISHMENTS</h1>
+                <div> 
+                    <h1 class="section-title">PROJECTS & ACHIEVEMENTS</h1>
                     <hr class="hr">
                 </div>
             </div>
             <div id="project-container">
-                <div id="first-row">
+
                     <div class="project" id=project-1>
-                        <img src="./resources/transcript.jpg" alt="Profile picture" width="100%" height="80%">
-                        <div>
-                            <p>PolyMTL students account tools</p>
+                        <img src="./resources/transcript.png" class="project-picture">
+                        <div class="project-description">
+                            <p>PolyMTL students<br>account tools</p>
                         </div>
                     </div>
-                    <div class="empty"></div>
 
                     <div class="project" id=project-7>
-                        <img src="./resources/LyricsFinder.png" alt="Profile picture" width="100%" height="80%">
-                        <div>
-                            <p>Lyrics and guitar tabs finder</p>
+                        <img src="./resources/LyricsFinder.png" class="project-picture">
+                        <div class="project-description">
+                            <p>Lyrics and guitar<br>tabs finder</p>
                         </div>
                     </div>
-                    <div class="empty"></div>
+
                     <div class="project" id=project-2>
-                        <img src="./resources/scrabble.png" alt="Profile picture" width="100%" height="80%">
-                        <div>
+                        <img src="./resources/scrabble.png" class="project-picture">
+                        <div class="project-description">
                             <p>Scrabble</p>
                         </div>
                     </div>
-                    <div class="empty"></div>
 
-                    
                     <div class="project" id=project-4>
-                        <img src="./resources/docx_to_pdf.jpg" alt="Profile picture" width="100%" height="80%">
-                        <div>
-                            <p>DOCX to PDF converter</p>
+                        <img src="./resources/docx_to_pdf.png" class="project-picture">
+                        <div class="project-description">
+                            <p>DOCX to PDF<br>converter</p>
                         </div>
                     </div>
 
-                </div>
-
-                <div id="second-row">
                     <div class="project" id=project-8>
-                        <img src="./resources/server.png" alt="Profile picture" width="100%" height="80%">
-                        <div>
-                            <p>Gestionnaire de fichiers sur serveur</p>
+                        <img src="./resources/server.png" class="project-picture">
+                        <div class="project-description">
+                            <p>File manager on server</p>
                         </div>
                     </div>
 
-                    <div class="empty"></div>
                     <div class="project" id=project-3>
-                        <img src="./resources/inf1900.jpg" alt="Profile picture" width="100%" height="80%">
-                        <div>
+                        <img src="./resources/inf1900.jpg" class="project-picture">
+                        <div class="project-description">
                             <p>Robot</p>
                         </div>
                     </div>
             
-                    <div class="empty"></div>
                     <div class="project" id=project-8>
-                        <img src="./resources/article.png" alt="Profile picture" width="100%" height="80%">
-                        <div>
+                        <img src="./resources/article.png" class="project-picture">
+                        <div class="project-description">
                             <p>Scientific article</p>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <section class="section-odd half-section" id="resume">
-        <div class="container col-9 col-s-12 col-t-12">
+    <section class="section-odd half-section col-12 col-s-12 col-t-12" id="resume">
+        <div class="container col-9 col-s-9 col-t-12">
             <div class="section-title-container">
                 <div>
                     <h1 class="section-title">RESUME</h1>
@@ -144,8 +135,8 @@
         </div>
     </section>
 
-    <section class="section-even half-section" id="contact">
-        <div class="container col-9 col-s-12 col-t-12">
+    <section class="section-even half-section col-12 col-s-12 col-t-12" id="contact">
+        <div class="container col-9 col-s-9 col-t-12">
             <div class="section-title-container">
                 <div>
                     <h1 class="section-title">CONTACT</h1>
