@@ -228,14 +228,21 @@ header .container{
     cursor:pointer;
 }
 
-.project:hover > .project-description{
+.project a{
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.project:hover a > .project-description{
     cursor:pointer;
-    background-color:rgb(255, 102, 46);
+    background-color:rgb(255, 102, 46) !important;
     color:black;
     font-size:20px;
     transition: 0.25s ease;
 }
-
 
 .project-picture{
     width: 300px;
@@ -243,6 +250,8 @@ header .container{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+
 
 .project-description{
     width: 300px;
@@ -256,6 +265,7 @@ header .container{
     align-items: center;
     transition: 0.25s ease;
     font-size:18px;
+    /* margin-top:-3.5px; */
 }
 
 .project-description p{
