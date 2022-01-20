@@ -190,8 +190,34 @@ header .container{
 }
 
 
+/******** PROJECTS ********/
+#project-container{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    margin-top:15px;
+}
 
+#first-row, #second-row {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin:10px 0;
+}
 
+.project {
+    width: 300px;
+    height: 300px;
+    border:grey solid 1px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.empty{
+    width:1%;
+}
 
 
 /******** RESUME ********/
@@ -209,6 +235,10 @@ header .container{
     height:60px;
 }
 
+#download-link{
+    text-decoration: none;
+}
+
 #download-button{
     font-family:Muli, sans-serif;
     font-size: 16px;
@@ -221,6 +251,9 @@ header .container{
     height:45px;
     border-radius: 5px;
     transition:0.25s ease;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #download-button:hover{
