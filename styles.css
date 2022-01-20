@@ -11,8 +11,8 @@ h1,h2,h3,h4,h5,h6{
     padding:0;
 }
 
-h1{
-    font-size:28px;
+h2{
+    font-size:26px;
 }
 
 section, header{
@@ -28,7 +28,7 @@ section, header{
 }
 
 .container{
-    width:70%;
+    width:80%;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@ section, header{
 
 header .container{
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .section {
@@ -107,8 +107,14 @@ header .container{
 
 .section-title{
     width:100%;
+    text-align: left;
+    margin:5px 20px;
+}
+
+.section-title{
+    width:100%;
     text-align: center;
-    margin:5px 0;
+    margin:5px 20px;
 }
 
 .hr{
@@ -121,6 +127,7 @@ header .container{
 .section-title-container{
     display:flex;
     flex-wrap: wrap;
+
     width:100%;
 }
 
@@ -172,19 +179,21 @@ header .container{
 
 .list-container{
     display: flex;
-    justify-content: center;
     width:100%;
     margin:0;
 }
 
 .list-container ul {
     padding:0;
-    margin:0;
+    margin:0 25px;
+    text-align: justify;
 }
 
 .list-container ul li {
-    margin:10px 0;
-    list-style: none;
+    margin:12.5px 35px;
+    /* list-style: none; */
+    list-style-type: circle;
+    font-size:18px;
 }
 
 
@@ -234,12 +243,19 @@ header .container{
     transition:0.25s ease;
 }
 
+.resume-text{
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+}
+
 
 /******** CONTACT ********/
 #social-container{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     height:75px;
 }
 
