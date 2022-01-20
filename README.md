@@ -1,3 +1,3 @@
-antoinedery.github.io
+https://antoinedery.github.io
 
 My personal website
