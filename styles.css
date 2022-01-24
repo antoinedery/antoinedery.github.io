@@ -55,6 +55,7 @@ header .container{
     width:100%;
     display:flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .main-nav ul{
@@ -68,16 +69,18 @@ header .container{
 
 .main-nav ul li{
     margin: 20px 15px;
+    text-align: center;
 }
 
-.main-nav ul li a{
+.nav-cat{
     text-decoration: none;
     color:#fff;
     font-size: 18px;
     transition:0.25s ease;
+
 }
 
-.main-nav ul li a:hover{
+.nav-cat:hover{
     text-decoration: none;
     color : rgb(255, 102, 46);
     transition:0.25s ease;
@@ -85,6 +88,10 @@ header .container{
 
 #title{
     color:white;
+}
+
+.selectedNav, .selectedLanguage {
+    color : rgb(255, 102, 46);
 }
 
 .section-even, .section-odd{
@@ -408,7 +415,6 @@ header .container{
     section{
         width:100%;
     }
-    
 
     #profile-picture{
         width:250px;
