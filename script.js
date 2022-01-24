@@ -1,11 +1,3 @@
-function selectLanguage() {
-    if(navigator.language == "fr") 
-        window.location.replace("fr/index.html"); 
-    else
-        window.location.replace("en/index.html"); 
-
-}
-
 function selectNav(id) {
     var slides = document.getElementsByClassName("selectedNav");
     for (var i = 0; i < slides.length; i++) 
